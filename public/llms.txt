@@ -1,0 +1,54 @@
+# Average Grade Calculator
+
+> Average Grade Calculator is a Next.js calculator suite offering free academic, conversion, utility and finance calculators with browser-based inputs, responsive UI, and public legal/support pages.
+
+## Docs
+
+- [Robots](https://www.averagegradecalculator.com/robots.txt): Search crawler directives for public indexing.
+- [Ads](https://www.averagegradecalculator.com/ads.txt): Advertising seller declaration file.
+- [Privacy Policy](https://www.averagegradecalculator.com/privacy-policy): Public privacy and data handling documentation.
+- [Terms of Service](https://www.averagegradecalculator.com/terms-of-service): Public usage terms and legal agreement.
+
+## Core Pages
+
+- [Home](https://www.averagegradecalculator.com/): Main calculator library and product overview.
+- [About](https://www.averagegradecalculator.com/about): Mission, values, privacy-first approach, and popular tools.
+- [Contact](https://www.averagegradecalculator.com/contact): Support contact options and message form.
+- [FAQ](https://www.averagegradecalculator.com/faq): Common questions and answers about using the website.
+
+## Calculators
+
+- [GPA Calculator](https://www.averagegradecalculator.com/gpa-calculator): Calculate GPA using course grades and credit hours.
+- [CGPA Calculator](https://www.averagegradecalculator.com/cgpa-calculator): Calculate cumulative GPA across multiple semesters.
+- [Average Grade Calculator](https://www.averagegradecalculator.com/average-grade-calculator): Calculate simple, weighted, and points-based grade averages with support for dropped scores and category weights.
+- [Semester Grade Calculator](https://www.averagegradecalculator.com/semester-grade-calculator): Combine weighted coursework into an overall semester grade.
+- [Final Grade Calculator](https://www.averagegradecalculator.com/final-grade-calculator): Find the score needed on a final exam to reach a target grade.
+- [Grade Curve Calculator](https://www.averagegradecalculator.com/grade-curve-calculator): Adjust test scores using highest-score, square root, linear, bell curve, target average, and rank-based curving methods with instant statistics.
+- [Marks Percentage Calculator](https://www.averagegradecalculator.com/marks-percentage-calculator): Convert obtained marks and total marks into a percentage.
+- [Percentage Calculator](https://www.averagegradecalculator.com/percentage-calculator): Solve common percentage calculations.
+- [CGPA to Percentage](https://www.averagegradecalculator.com/cgpa-to-percentage): Convert CGPA into an estimated percentage.
+- [SGPA to CGPA](https://www.averagegradecalculator.com/sgpa-to-cgpa): Convert semester grade points into cumulative grade points.
+- [SGPA to Percentage](https://www.averagegradecalculator.com/sgpa-to-percentage): Convert SGPA into an estimated percentage.
+- [Percentage to CGPA](https://www.averagegradecalculator.com/percentage-to-cgpa): Convert percentage marks into an estimated CGPA.
+- [Loan Calculator](https://www.averagegradecalculator.com/loan-calculator): Estimate monthly payment, total repayment, and interest.
+- [Tip Calculator](https://www.averagegradecalculator.com/tip-calculator): Calculate tip amount, total bill, and split amount.
+- [Password Generator](https://www.averagegradecalculator.com/password-generator): Generate secure browser-side passwords.
+
+## Legal
+
+- [Privacy Policy](https://www.averagegradecalculator.com/privacy-policy): Explains privacy practices, local processing, analytics, and advertising data handling.
+- [Cookie Policy](https://www.averagegradecalculator.com/cookie-policy): Explains cookies, cookie categories, opt-out options, and user controls.
+- [Terms of Service](https://www.averagegradecalculator.com/terms-of-service): Usage terms, acceptable use, advertising terms, and limitations.
+- [Disclaimer](https://www.averagegradecalculator.com/disclaimer): Important limitations and informational-use disclaimers.
+
+## Features
+
+- [Reusable Calculator Framework](https://www.averagegradecalculator.com/): Shared UI structure for calculator cards, result panels, chart panels, and manual calculate flows.
+- [Responsive Design](https://www.averagegradecalculator.com/): Mobile-friendly layouts with consistent spacing, navigation, and theme support.
+- [Local Input Handling](https://www.averagegradecalculator.com/privacy-policy): User-entered values are processed in the browser and are not stored by the site.
+- [Dark Theme Support](https://www.averagegradecalculator.com/): Light/dark theme toggle across public pages and calculators.
+
+## API
+
+- [Public Website](https://www.averagegradecalculator.com/): This project exposes user-facing web pages and calculators, not a documented public API.
+- [llms.txt](https://www.averagegradecalculator.com/llms.txt): LLM-facing site map and project summary.

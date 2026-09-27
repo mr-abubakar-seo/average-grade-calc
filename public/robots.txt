@@ -1,0 +1,12 @@
+# Grade Calc Pro - Robots.txt
+# Allow all search engine crawlers
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.averagegradecalculator.com/sitemap.xml
+
+# Disallow admin or API routes if any (none currently)
+# Disallow: /api/
+# Disallow: /admin/

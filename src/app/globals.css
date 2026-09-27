@@ -1,0 +1,304 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+
+  /* Brand palette sampled from public/assets/logo.jpg */
+  --color-brand: #082e75;
+  --color-brand-foreground: #ffffff;
+  --color-brand-deep: #063377;
+  --color-brand-soft: #e8f2ff;
+
+  --color-background: #f8fafc;
+  --color-foreground: #0f172a;
+  --color-primary: #082e75;
+  --color-secondary: #64748b;
+  --color-muted: #f1f5f9;
+  --color-muted-foreground: #64748b;
+  --color-border: #e2e8f0;
+  --color-card: #ffffff;
+  --color-destructive: var(--brand-deep);
+  --color-input: #e2e8f0;
+  --color-ring: #082e75;
+  --color-primary-foreground: #ffffff;
+  --color-primary-border: #063377;
+  --color-secondary-foreground: #f8fafc;
+  --color-secondary-border: #cbd5e1;
+
+  /* Map existing indigo utility classes to the brand system globally. */
+  --color-indigo-50: #e8f2ff;
+  --color-indigo-100: #d5e8ff;
+  --color-indigo-200: #acd3ff;
+  --color-indigo-300: #78b5ee;
+  --color-indigo-400: #082e75;
+  --color-indigo-500: #0b3778;
+  --color-indigo-600: #082e75;
+  --color-indigo-700: #063377;
+  --color-indigo-800: #08295d;
+  --color-indigo-900: #071f48;
+  --color-indigo-950: #04142f;
+
+  /* Keep older accent utility classes inside the logo navy family. */
+  --color-amber-50: #e8f2ff;
+  --color-amber-100: #d5e8ff;
+  --color-amber-200: #acd3ff;
+  --color-amber-300: #78b5ee;
+  --color-amber-400: #082e75;
+  --color-amber-500: #0b3778;
+  --color-amber-600: #082e75;
+  --color-amber-700: #063377;
+  --color-amber-800: #08295d;
+  --color-amber-900: #071f48;
+  --color-amber-950: #04142f;
+  --color-purple-50: #e8f2ff;
+  --color-purple-100: #d5e8ff;
+  --color-purple-200: #acd3ff;
+  --color-purple-300: #78b5ee;
+  --color-purple-400: #082e75;
+  --color-purple-500: #0b3778;
+  --color-purple-600: #082e75;
+  --color-purple-700: #063377;
+  --color-purple-800: #08295d;
+  --color-purple-900: #071f48;
+  --color-purple-950: #04142f;
+  --color-violet-50: #e8f2ff;
+  --color-violet-100: #d5e8ff;
+  --color-violet-200: #acd3ff;
+  --color-violet-300: #78b5ee;
+  --color-violet-400: #082e75;
+  --color-violet-500: #0b3778;
+  --color-violet-600: #082e75;
+  --color-violet-700: #063377;
+  --color-violet-800: #08295d;
+  --color-violet-900: #071f48;
+  --color-violet-950: #04142f;
+  --color-blue-50: #e8f2ff;
+  --color-blue-100: #d5e8ff;
+  --color-blue-200: #acd3ff;
+  --color-blue-300: #78b5ee;
+  --color-blue-400: #082e75;
+  --color-blue-500: #0b3778;
+  --color-blue-600: #082e75;
+  --color-blue-700: #063377;
+  --color-blue-800: #08295d;
+  --color-blue-900: #071f48;
+  --color-blue-950: #04142f;
+  --color-green-50: #e8f2ff;
+  --color-green-100: #d5e8ff;
+  --color-green-200: #acd3ff;
+  --color-green-300: #082e75;
+  --color-green-400: #082e75;
+  --color-green-500: #082e75;
+  --color-green-600: #082e75;
+  --color-green-700: #063377;
+  --color-green-800: #063377;
+  --color-green-900: #082e75;
+  --color-green-950: #04142f;
+  --color-orange-50: #e8f2ff;
+  --color-orange-100: #d5e8ff;
+  --color-orange-200: #acd3ff;
+  --color-orange-300: #78b5ee;
+  --color-orange-400: #082e75;
+  --color-orange-500: #0b3778;
+  --color-orange-600: #082e75;
+  --color-orange-700: #063377;
+  --color-orange-800: #08295d;
+  --color-orange-900: #071f48;
+  --color-orange-950: #04142f;
+  --color-yellow-50: #e8f2ff;
+  --color-yellow-100: #d5e8ff;
+  --color-yellow-200: #acd3ff;
+  --color-yellow-300: #78b5ee;
+  --color-yellow-400: #082e75;
+  --color-yellow-500: #0b3778;
+  --color-yellow-600: #082e75;
+  --color-yellow-700: #063377;
+  --color-yellow-800: #08295d;
+  --color-yellow-900: #071f48;
+  --color-yellow-950: #04142f;
+  --color-red-50: #e8f2ff;
+  --color-red-100: #d5e8ff;
+  --color-red-200: #acd3ff;
+  --color-red-300: #78b5ee;
+  --color-red-400: #082e75;
+  --color-red-500: #0b3778;
+  --color-red-600: #082e75;
+  --color-red-700: #063377;
+  --color-red-800: #08295d;
+  --color-red-900: #071f48;
+  --color-red-950: #04142f;
+  --color-pink-50: #e8f2ff;
+  --color-pink-100: #d5e8ff;
+  --color-pink-200: #acd3ff;
+  --color-pink-300: #78b5ee;
+  --color-pink-400: #082e75;
+  --color-pink-500: #0b3778;
+  --color-pink-600: #082e75;
+  --color-pink-700: #063377;
+  --color-pink-800: #08295d;
+  --color-pink-900: #071f48;
+  --color-pink-950: #04142f;
+  --color-rose-50: #e8f2ff;
+  --color-rose-100: #d5e8ff;
+  --color-rose-200: #acd3ff;
+  --color-rose-300: #78b5ee;
+  --color-rose-400: #082e75;
+  --color-rose-500: #0b3778;
+  --color-rose-600: #082e75;
+  --color-rose-700: #063377;
+  --color-rose-800: #08295d;
+  --color-rose-900: #071f48;
+  --color-rose-950: #04142f;
+}
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --brand: #082e75;
+  --brand-deep: #063377;
+  --brand-soft: #e8f2ff;
+  --brand-surface: #ffffff;
+  --brand-border: #d8dee6;
+  --brand-text: #172033;
+  --brand-muted: #667386;
+}
+
+.dark {
+  --background: #000000;
+  --foreground: #ffffff;
+  --brand: #082e75;
+  --brand-deep: #000000;
+  --brand-soft: rgba(255, 255, 255, 0.06);
+  --brand-surface: #050505;
+  --brand-border: #2a2a2a;
+  --brand-text: #ffffff;
+  --brand-muted: #ffffff;
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+  --color-card: #050505;
+  --color-border: #2a2a2a;
+  --color-muted: #111111;
+  --color-muted-foreground: #ffffff;
+  --color-input: #111111;
+  --color-ring: #082e75;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark body {
+  background: #000000 !important;
+}
+
+.dark body :where(
+  [class*="dark:bg-slate"],
+  [class*="dark:bg-indigo"],
+  [class*="dark:bg-blue"],
+  [class*="dark:bg-purple"],
+  [class*="dark:bg-violet"],
+  [class*="dark:bg-green"],
+  [class*="dark:bg-red"],
+  [class*="dark:bg-orange"],
+  [class*="dark:bg-amber"],
+  [class*="dark:bg-yellow"]
+) {
+  background-color: #050505 !important;
+}
+
+.dark body :where([class*="dark:bg-white/"]) {
+  background-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+.dark body :where([class*="dark:from-"], [class*="dark:to-"]) {
+  background-image: none !important;
+  background-color: #050505 !important;
+}
+
+.dark body :where(
+  [class*="dark:border-slate"],
+  [class*="dark:border-indigo"],
+  [class*="dark:border-blue"],
+  [class*="dark:border-purple"],
+  [class*="dark:border-violet"],
+  [class*="dark:border-green"],
+  [class*="dark:border-red"],
+  [class*="dark:border-orange"],
+  [class*="dark:border-amber"],
+  [class*="dark:border-yellow"],
+  [class*="dark:border-white/"]
+) {
+  border-color: #2a2a2a !important;
+}
+
+.dark body,
+.dark body :where(
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  a,
+  button,
+  label,
+  small,
+  strong,
+  em,
+  li,
+  dt,
+  dd,
+  th,
+  td,
+  input,
+  textarea,
+  select,
+  option,
+  output,
+  summary,
+  figcaption,
+  code,
+  pre
+) {
+  color: #ffffff !important;
+}
+
+.dark body :where(svg, svg *) {
+  color: #ffffff !important;
+  stroke: currentColor !important;
+}
+
+.dark body :where(svg:not(.recharts-surface) [fill]:not([fill="none"])) {
+  fill: #ffffff !important;
+}
+
+.dark body :where(input::placeholder, textarea::placeholder) {
+  color: rgba(255, 255, 255, 0.72) !important;
+}
+
+.dark body :where(
+  .recharts-text,
+  .recharts-label,
+  .recharts-cartesian-axis-tick-value
+) {
+  fill: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+/* Remove number input spinners */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}

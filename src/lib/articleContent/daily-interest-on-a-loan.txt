@@ -1,0 +1,115 @@
+# How to Calculate Daily Interest on a Loan
+
+## What "Daily Interest" Actually Means
+
+A loan's interest rate is almost always quoted as an annual figure — the Annual Percentage Rate, or APR. But the lender doesn't wait 365 days to charge you. Instead, most installment loans, mortgages, auto loans, and credit cards use a method called daily simple interest, where the annual rate is broken down into a daily rate, and that daily rate is multiplied against your current balance every day.
+
+This matters because your balance changes over time (you make payments, you might miss one, you might pay early). A loan that charges daily interest is sensitive to when you pay, not just how much you pay.
+
+## The Core Formula
+
+The standard formula for daily interest is:
+
+Daily Interest Rate = Annual Interest Rate ÷ 365
+
+Daily Interest Charge = Daily Interest Rate × Outstanding Principal
+
+Some lenders use 360 days instead of 365 (a practice inherited from older banking conventions, still common in commercial lending). This is called the **Banker's Year**, and it slightly increases the effective rate you pay, since the same annual rate gets divided by a smaller number.
+
+To find interest over a specific number of days, extend the formula:
+
+Interest = Principal × (Annual Rate ÷ 365) × Number of Days
+
+### Worked Example 1: A Personal Loan
+
+Suppose you take out a $10,000 personal loan at a 9% APR.
+
+- Daily rate = 9% ÷ 365 = 0.0246575% per day
+- Daily interest on day one = $10,000 × 0.000246575 = $2.4658
+
+Over a 30-day billing cycle, assuming no payment is made yet, the interest accrued would be:
+
+$10,000 × (0.09 ÷ 365) × 30 = $73.97
+
+If you made a $500 payment on day 15, the principal drops to $9,500 for the remaining 15 days, and the total interest for the month becomes:
+
+(10,000 × 0.09 ÷ 365 × 15) + (9,500 × 0.09 ÷ 365 × 15)
+= $36.99 + $35.14
+= $72.13
+
+That $1.84 difference looks small on one loan cycle, but compounded across a multi-year loan term, paying even slightly early — or making biweekly instead of monthly payments — can save hundreds of dollars in total interest. This is the exact mechanism behind **extra payment strategies** that financial advisors recommend.
+
+### Worked Example 2: Credit Card-Style Daily Compounding
+
+Credit cards go a step further and compound daily, meaning unpaid interest from one day gets added to the balance the next day, and tomorrow's interest is charged on that slightly larger number.
+
+Take a $5,000 credit card balance at 24% APR, with no payments made for a full year:
+
+Daily rate = 24% ÷ 365 = 0.0657%
+
+Daily compounding formula: **A = P × (1 + r/365)^n**
+
+A = 5,000 × (1 + 0.24/365)^365
+A ≈ $6,352.68
+
+That's $1,352.68 in interest over one year on a card that "only" charges 24% — noticeably more than the $1,200 you'd expect from simple annual interest, purely because of daily compounding.
+
+## Simple Interest vs. Amortized vs. Compound: A Quick Comparison
+
+| Method | How It's Calculated | Common For |
+|--------|---------------------|-----------|
+| Daily Simple Interest | Rate ÷ 365 × balance × days | Personal loans, auto loans |
+| Amortized (Fixed Payment) | Interest recalculated on remaining balance each period, payment split between principal and interest | Mortgages, most installment loans |
+| Daily Compound Interest | Interest is added to balance daily, then charged interest itself | Credit cards, some lines of credit |
+| Add-on Interest | Total interest calculated upfront on original balance for the full term | Some short-term and subprime auto loans |
+
+Amortized loans are the trickiest to picture, because even though your payment stays the same every month, the portion going to interest versus principal shifts. Early in the loan, most of your payment covers interest (since the balance is high); later, most of it reduces the principal.
+
+## Case Study: Early Payoff on an Auto Loan
+
+Consider a $20,000 auto loan at 6.5% APR over 60 months, with a standard amortized monthly payment of roughly $391.
+
+- Under a normal payment schedule, total interest paid over 5 years is approximately $3,460.
+- If the borrower pays an additional $50 per month starting from month one, the loan is paid off around 8 months early, and total interest drops to roughly $2,980 — a saving of about $480.
+
+This happens because every extra dollar applied to principal reduces the balance that the next day's interest is calculated on. The earlier in the loan you make extra payments, the more days of interest you avoid, which is why daily interest calculations reward early or frequent payments more than lump-sum payments made near the end of a term.
+
+## Why the Day-Count Convention Matters
+
+Two loans with the identical stated APR can have different real costs depending on:
+
+- **365/360 day count** — a loan using a 360-day divisor charges slightly more interest per day than one using 365.
+- **Payment application order** — some lenders apply payments to interest first, then principal; others split it differently.
+- **Grace periods** — many credit products don't charge interest at all if the statement balance is paid in full by the due date.
+
+None of this is disclosed in the advertised APR alone, which is why reading the loan agreement's interest calculation clause matters more than comparing headline rates.
+
+## Try It Yourself
+
+Manually running these calculations for a multi-year loan with variable payments is tedious and easy to get wrong by a rounding error that compounds over time. If you want to check your own loan's numbers — principal, rate, term, and payment schedule — you can use a loan calculator to see the daily interest breakdown and total cost without doing the arithmetic by hand.
+
+## FAQs
+
+**Does daily interest cost more than monthly interest at the same APR?**
+
+Not on its own — a simple-interest loan calculated daily and one calculated monthly at the same APR produce nearly identical totals if the balance doesn't change mid-period. The difference shows up when payments happen partway through a cycle, since daily calculation credits you for every day the balance was lower.
+
+**Why did my interest charge go up even though I made a payment?**
+
+This usually happens with daily-compounding accounts (like credit cards) when a payment doesn't cover the full interest accrued since the last statement — the unpaid interest gets added to the balance and starts accruing interest itself.
+
+**Is a lower APR always better if the day-count convention differs?**
+
+Not necessarily. A 7% APR calculated on a 360-day basis is mathematically closer to a 7.1% rate calculated on a 365-day basis. The difference is small but worth checking on large loans like mortgages.
+
+**Do all loans charge daily interest?**
+
+No. Some short-term and subprime loans use "add-on interest," where the total interest is calculated upfront on the original balance and doesn't decrease even as you pay down principal. This method almost always costs more than daily simple interest.
+
+**How can I reduce the total interest I pay?**
+
+Paying more than the minimum, paying earlier in the billing cycle, and making extra principal payments all reduce the balance interest is calculated on sooner, which lowers total interest paid over the life of the loan.
+
+## Conclusion
+
+Daily interest isn't a separate loan feature — it's how most consumer loans work by default, whether or not the lender advertises it that way. The formula itself is simple (rate divided by 365, multiplied by balance and days), but the impact of when you pay compounds over the life of a loan in ways that aren't obvious from a monthly statement. Understanding the mechanic gives you a practical lever: paying earlier in a cycle or adding small extra payments reduces the balance interest is charged on sooner, which measurably lowers what you pay in total — as shown in both the personal loan and auto loan examples above.

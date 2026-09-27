@@ -1,0 +1,136 @@
+# How to Calculate GPA: A Complete, Step-by-Step Guide
+
+## What GPA Actually Measures
+
+GPA stands for Grade Point Average. It converts every letter grade a student earns into a numeric value, weights that value by the number of credit hours the course carries, and averages the result across all courses. The output is a single number, usually somewhere between 0.0 and 4.0, that summarizes overall academic performance.
+
+Schools, colleges, and scholarship committees rely on GPA because a single number is easier to compare across thousands of applicants than a full transcript. That convenience is also why understanding exactly how it's calculated matters — a difference of a few hundredths of a point can affect eligibility for honors, financial aid, or admission to a specific program.
+
+## The GPA Scale: Converting Letter Grades to Points
+
+Most U.S. high schools and colleges use a 4.0 unweighted scale, though some schools use a 5.0 scale for weighted courses (covered below) and others use a 100-point or 5-point system. The standard conversion looks like this:
+
+| Letter Grade | Percentage Range | Grade Points (4.0 Scale) |
+|--------------|------------------|--------------------------|
+| A | 93–100 | 4.0 |
+| A- | 90–92 | 3.7 |
+| B+ | 87–89 | 3.3 |
+| B | 83–86 | 3.0 |
+| B- | 80–82 | 2.7 |
+| C+ | 77–79 | 2.3 |
+| C | 73–76 | 2.0 |
+| C- | 70–72 | 1.7 |
+| D | 60–69 | 1.0 |
+| F | Below 60 | 0.0 |
+
+Some institutions round differently or use slightly different cutoffs, so it's worth checking your school's official grading policy before assuming this exact table applies to your transcript.
+
+## The GPA Formula
+
+The core formula is the same everywhere, regardless of scale:
+
+GPA = Total Grade Points Earned ÷ Total Credit Hours Attempted
+
+**Grade points earned** for a single course means the grade's point value multiplied by that course's credit hours. Add up the grade points from every course, add up the credit hours from every course, then divide the two.
+
+## Step-by-Step: How to Calculate GPA Manually
+
+Here's the process broken into steps, followed by a worked example.
+
+- **Step 1:** List every course along with its letter grade and credit hours.
+- **Step 2:** Convert each letter grade into grade points using the conversion table above.
+- **Step 3:** Multiply each course's grade points by its credit hours to get grade points earned for that course.
+- **Step 4:** Add up grade points earned across all courses.
+- **Step 5:** Add up total credit hours across all courses.
+- **Step 6:** Divide total grade points earned by total credit hours. That result is the GPA.
+
+### Worked Example: A Student's Semester GPA
+
+A student is enrolled in four courses in one semester.
+
+| Course | Credit Hours | Grade | Grade Points Earned |
+|--------|--------------|-------|---------------------|
+| English Composition | 3 | A (4.0) | 12.0 |
+| Biology | 4 | B+ (3.3) | 13.2 |
+| Statistics | 3 | A- (3.7) | 11.1 |
+| World History | 3 | B (3.0) | 9.0 |
+| Total | 13 | — | 45.3 |
+
+Applying the formula: **45.3 grade points earned ÷ 13 total credit hours = 3.48**. This student's semester GPA is 3.48.
+
+If you'd rather skip the manual math, a free GPA calculator runs the same formula automatically — you enter each course's grade and credit hours and it returns your semester and cumulative GPA instantly.
+
+## Weighted vs. Unweighted GPA
+
+An unweighted GPA treats every course the same regardless of difficulty — an A in gym and an A in AP Physics both count as 4.0. A weighted GPA gives extra points to Honors, AP, or IB courses, usually adding 0.5 for Honors and 1.0 for AP/IB, which pushes the maximum possible GPA above 4.0 (often to a 5.0 scale).
+
+This distinction matters because two students with identical letter grades can end up with different GPAs depending on how many advanced courses they took and how their school weights them. When comparing GPAs — for scholarships or transfers, for example — it's important to know whether the numbers being compared are both weighted, both unweighted, or a mix of the two.
+
+## Semester GPA vs. Cumulative GPA
+
+Semester GPA (also called term GPA) covers only the courses taken in one grading period. Cumulative GPA covers every course taken across all semesters or years. To calculate cumulative GPA, use the same formula but with total grade points and total credit hours from every semester combined, not just the most recent one.
+
+A common misunderstanding is trying to average semester GPAs directly, for example (3.2 + 3.6) / 2. That only produces the correct cumulative GPA if every semester carried the exact same number of credit hours. If credit loads differ, that shortcut will be wrong — always work from total grade points and total credit hours instead.
+
+## Case Study 1: A High School Student Calculating GPA for College Applications
+
+Consider a hypothetical junior, referred to here as Maria, applying to competitive universities. Her school reports an unweighted GPA, but she also wants to know her weighted GPA because two of the schools she's applying to prefer that figure. Over three semesters she completed 8 courses, including 2 AP classes.
+
+Her unweighted GPA, calculated the standard way, came out to 3.65. When she added the AP weighting (1.0 extra point per AP course) to just those two AP courses' grade points before dividing by total credits, her weighted GPA came out to 3.81. Knowing both numbers mattered: one admissions portal asked specifically for unweighted GPA, while another asked for weighted. Submitting the wrong figure to either would have misrepresented her transcript, so she recalculated by hand using her school's official grade-to-point table rather than assuming a generic 4.0 scale applied.
+
+## Case Study 2: A College Student Recovering From a Low Semester
+
+A second hypothetical example: a college sophomore, referred to here as Daniel, had a strong first year (cumulative GPA of 3.6 after 30 credit hours) but a difficult second semester of year two, where illness affected his performance and his semester GPA dropped to 2.1 across 15 credit hours.
+
+Because his cumulative GPA is a weighted average of every semester's grade points, not a simple average of semester GPAs, the drop had less impact than he initially feared. Using the formula: total grade points before the bad semester were roughly 108 (3.6 × 30), and the bad semester added about 31.5 (2.1 × 15). His new cumulative total is 139.5 grade points over 45 credit hours, or 3.1. His single low semester pulled his GPA down by half a point, not down to the semester average itself — a distinction that mattered when he was planning how many strong semesters he'd need to get back above the 3.3 threshold required for his scholarship.
+
+## Common Mistakes When Calculating GPA
+
+- Averaging semester GPAs instead of recalculating from total grade points and total credits.
+- Using a generic 4.0 conversion table when a school actually uses a different scale or rounding rule.
+- Forgetting that repeated courses are sometimes averaged and sometimes replaced, depending on the school's retake policy.
+- Mixing weighted and unweighted figures when comparing GPAs across different schools or applications.
+- Leaving out pass/fail or audit courses that a school's policy says should be excluded from GPA — or including them when they shouldn't be.
+
+## How to Improve a Low GPA
+
+Raising GPA is a matter of the same formula working in reverse — future high grades in high-credit courses move the number more than the same grades in low-credit courses. Some practical approaches:
+
+- Prioritize consistent performance in courses with the most credit hours, since they carry more weight in the calculation.
+- Check whether the school allows grade replacement for retaken courses, which can directly remove a low grade from the calculation rather than just diluting it.
+- Space out difficult courses instead of taking several in the same term, to protect both grades and the semester GPA.
+- Track projected GPA before each term ends, so it's clear how much a final exam or project needs to shift the outcome.
+
+## Tools That Simplify the Process
+
+Manual calculation is useful for understanding the mechanics, but for anyone tracking GPA across multiple semesters, a purpose-built calculator saves time and avoids arithmetic errors. A GPA calculator tool lets you enter each course's grade and credit hours, supports both weighted and unweighted scales, and calculates cumulative GPA automatically across multiple semesters — useful for the kind of running total described in the case studies above.
+
+## Frequently Asked Questions
+
+**What is a good GPA?**
+
+It depends entirely on context. A 3.0 is generally considered average to good in U.S. high schools and colleges, a 3.5+ is competitive for many selective college admissions, and requirements vary significantly by institution and program.
+
+**Does GPA include non-academic courses like gym or study hall?**
+
+It depends on the school's policy. Some schools exclude pass/fail, elective, or non-academic courses from the GPA calculation entirely; others include everything. Check your school's registrar guidelines.
+
+**How is college GPA different from high school GPA?**
+
+The formula is identical, but colleges typically don't weight GPA for AP/IB/Honors courses the way many high schools do, and college GPA is usually reported cumulatively across every semester of enrollment rather than per year.
+
+**Can GPA go above 4.0?**
+
+On an unweighted scale, no — 4.0 is the ceiling. On a weighted scale that adds points for advanced courses, GPA can exceed 4.0, sometimes up to 5.0 depending on the school's weighting policy.
+
+**Do withdrawals or incompletes affect GPA?**
+
+A straightforward withdrawal (often marked "W") usually doesn't count toward GPA at most institutions, since no letter grade is assigned. An incomplete that later converts to a letter grade, or a failed withdrawal deadline, generally does affect GPA. Policies vary, so check with your registrar.
+
+**How often should I recalculate my GPA?**
+
+At minimum, at the end of every grading period. Recalculating mid-semester using projected grades is also useful for students tracking eligibility for scholarships, athletics, or academic probation thresholds.
+
+## Conclusion
+
+GPA calculation comes down to one formula applied consistently: convert each grade to points, multiply by credit hours, total both sides, and divide. The complexity people run into usually isn't the math itself — it's school-specific rules around weighting, rounding, and which courses count. Once those rules are clear, calculating GPA by hand for a handful of courses is straightforward, and for anyone managing it across multiple semesters, using a dedicated calculator removes the risk of arithmetic mistakes while keeping a running cumulative total.
